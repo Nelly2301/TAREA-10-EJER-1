@@ -1,0 +1,20 @@
+/* pantalla grande (>768px) */
+body {
+  background-color: lightblue;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  padding: 20px;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media (max-width: 479px) {
+  body {
+    background-color: lightgreen;
+  }
+}
